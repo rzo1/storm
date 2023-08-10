@@ -15,6 +15,7 @@ package org.apache.storm.state;
 import com.esotericsoftware.kryo.kryo5.Kryo;
 import com.esotericsoftware.kryo.kryo5.io.Input;
 import com.esotericsoftware.kryo.kryo5.io.Output;
+import com.esotericsoftware.kryo.kryo5.objenesis.strategy.StdInstantiatorStrategy;
 import com.esotericsoftware.kryo.kryo5.util.DefaultInstantiatorStrategy;
 
 import java.util.ArrayList;
@@ -29,7 +30,6 @@ import org.apache.storm.serialization.KryoTupleSerializer;
 import org.apache.storm.serialization.SerializationFactory;
 import org.apache.storm.task.TopologyContext;
 import org.apache.storm.tuple.TupleImpl;
-import org.objenesis.strategy.StdInstantiatorStrategy;
 
 /**
  * A default implementation that uses Kryo to serialize and de-serialize the state.
