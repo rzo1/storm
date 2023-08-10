@@ -87,8 +87,8 @@
         
         <!-- kryo -->
         <dependency>
-            <groupId>com.esotericsoftware</groupId>
-            <artifactId>kryo</artifactId>
+            <groupId>com.esotericsoftware.kryo</groupId>
+            <artifactId>kryo5</artifactId>
         </dependency>
 
         <!-- below are transitive dependencies which are version managed in storm pom -->
