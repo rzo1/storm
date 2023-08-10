@@ -18,9 +18,9 @@
 
 package org.apache.storm.serialization;
 
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.Serializer;
-import com.esotericsoftware.kryo.serializers.DefaultSerializers.BigIntegerSerializer;
+import com.esotericsoftware.kryo.kryo5.Kryo;
+import com.esotericsoftware.kryo.kryo5.Serializer;
+import com.esotericsoftware.kryo.kryo5.serializers.DefaultSerializers.BigIntegerSerializer;
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;

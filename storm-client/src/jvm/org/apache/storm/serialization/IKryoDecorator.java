@@ -12,7 +12,7 @@
 
 package org.apache.storm.serialization;
 
-import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.kryo5.Kryo;
 
 public interface IKryoDecorator {
     void decorate(Kryo k);

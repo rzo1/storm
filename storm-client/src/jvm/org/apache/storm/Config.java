@@ -18,7 +18,7 @@
 
 package org.apache.storm;
 
-import com.esotericsoftware.kryo.Serializer;
+import com.esotericsoftware.kryo.kryo5.Serializer;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -488,7 +488,7 @@ public class Config extends HashMap<String, Object> {
     /**
      * A list of serialization registrations for Kryo ( https://github.com/EsotericSoftware/kryo ), the underlying serialization framework
      * for Storm. A serialization can either be the name of a class (in which case Kryo will automatically create a serializer for the class
-     * that saves all the object's fields), or an implementation of com.esotericsoftware.kryo.Serializer.
+     * that saves all the object's fields), or an implementation of com.esotericsoftware.kryo.kryo5.Serializer.
      *
      * <p>See Kryo's documentation for more information about writing custom serializers.
      */

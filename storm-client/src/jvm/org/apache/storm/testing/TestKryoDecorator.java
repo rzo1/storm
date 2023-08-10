@@ -12,7 +12,7 @@
 
 package org.apache.storm.testing;
 
-import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.kryo5.Kryo;
 import org.apache.storm.serialization.IKryoDecorator;
 
 public class TestKryoDecorator implements IKryoDecorator {

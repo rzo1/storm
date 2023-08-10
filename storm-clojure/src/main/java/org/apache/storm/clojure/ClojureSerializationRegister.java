@@ -20,7 +20,7 @@ package org.apache.storm.clojure;
 
 import carbonite.JavaBridge;
 
-import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.kryo5.Kryo;
 
 import org.apache.storm.serialization.SerializationRegister;
 

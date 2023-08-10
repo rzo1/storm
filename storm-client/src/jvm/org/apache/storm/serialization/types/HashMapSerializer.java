@@ -12,9 +12,9 @@
 
 package org.apache.storm.serialization.types;
 
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.io.Input;
-import com.esotericsoftware.kryo.serializers.MapSerializer;
+import com.esotericsoftware.kryo.kryo5.Kryo;
+import com.esotericsoftware.kryo.kryo5.io.Input;
+import com.esotericsoftware.kryo.kryo5.serializers.MapSerializer;
 import java.util.HashMap;
 import java.util.Map;
 

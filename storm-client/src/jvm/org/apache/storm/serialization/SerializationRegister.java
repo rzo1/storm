@@ -18,7 +18,7 @@
 
 package org.apache.storm.serialization;
 
-import com.esotericsoftware.kryo.Kryo;
+import com.esotericsoftware.kryo.kryo5.Kryo;
 
 /**
  * Provides a way using a service loader to register Kryo serializers with the SerializationFactory without needing to modify the config.

@@ -12,9 +12,9 @@
 
 package org.apache.storm.serialization.types;
 
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.io.Input;
-import com.esotericsoftware.kryo.serializers.CollectionSerializer;
+import com.esotericsoftware.kryo.kryo5.Kryo;
+import com.esotericsoftware.kryo.kryo5.io.Input;
+import com.esotericsoftware.kryo.kryo5.serializers.CollectionSerializer;
 import java.util.Collection;
 import org.apache.storm.utils.ListDelegate;
 

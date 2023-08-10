@@ -12,7 +12,7 @@
 
 package org.apache.storm.serialization;
 
-import com.esotericsoftware.kryo.io.Input;
+import com.esotericsoftware.kryo.kryo5.io.Input;
 import java.io.IOException;
 import java.util.List;
 import java.util.Map;

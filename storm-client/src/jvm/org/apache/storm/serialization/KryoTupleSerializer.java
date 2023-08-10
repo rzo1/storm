@@ -12,7 +12,7 @@
 
 package org.apache.storm.serialization;
 
-import com.esotericsoftware.kryo.io.Output;
+import com.esotericsoftware.kryo.kryo5.io.Output;
 import java.io.IOException;
 import java.util.Map;
 import org.apache.storm.task.GeneralTopologyContext;

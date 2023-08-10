@@ -12,8 +12,8 @@
 
 package org.apache.storm.serialization;
 
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.Serializer;
+import com.esotericsoftware.kryo.kryo5.Kryo;
+import com.esotericsoftware.kryo.kryo5.Serializer;
 import java.util.Map;
 import org.apache.storm.Config;
 

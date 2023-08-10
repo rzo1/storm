@@ -12,8 +12,8 @@
 
 package org.apache.storm.tuple;
 
-import com.esotericsoftware.kryo.io.Input;
-import com.esotericsoftware.kryo.io.Output;
+import com.esotericsoftware.kryo.kryo5.io.Input;
+import com.esotericsoftware.kryo.kryo5.io.Output;
 import java.io.IOException;
 import java.util.Collections;
 import java.util.HashMap;

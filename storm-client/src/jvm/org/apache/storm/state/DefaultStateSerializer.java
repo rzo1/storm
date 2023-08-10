@@ -12,10 +12,10 @@
 
 package org.apache.storm.state;
 
-import com.esotericsoftware.kryo.Kryo;
-import com.esotericsoftware.kryo.io.Input;
-import com.esotericsoftware.kryo.io.Output;
-import com.esotericsoftware.kryo.util.DefaultInstantiatorStrategy;
+import com.esotericsoftware.kryo.kryo5.Kryo;
+import com.esotericsoftware.kryo.kryo5.io.Input;
+import com.esotericsoftware.kryo.kryo5.io.Output;
+import com.esotericsoftware.kryo.kryo5.util.DefaultInstantiatorStrategy;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -100,7 +100,7 @@ public class DefaultStateSerializer<T> implements Serializer<T> {
         return (T) kryo.get().readClassAndObject(input);
     }
 
-    private static class TupleSerializer extends com.esotericsoftware.kryo.Serializer<TupleImpl> {
+    private static class TupleSerializer extends com.esotericsoftware.kryo.kryo5.Serializer<TupleImpl> {
         private final KryoTupleSerializer tupleSerializer;
         private final KryoTupleDeserializer tupleDeserializer;
 

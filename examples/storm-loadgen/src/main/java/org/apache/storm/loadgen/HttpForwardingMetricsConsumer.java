@@ -18,7 +18,7 @@
 
 package org.apache.storm.loadgen;
 
-import com.esotericsoftware.kryo.io.Output;
+import com.esotericsoftware.kryo.kryo5.io.Output;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Arrays;

@@ -18,7 +18,7 @@
 
 package org.apache.storm.loadgen;
 
-import com.esotericsoftware.kryo.io.Input;
+import com.esotericsoftware.kryo.kryo5.io.Input;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.ServerSocket;
