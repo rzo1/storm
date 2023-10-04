@@ -513,20 +513,10 @@
             <modules>
                 <module>examples/storm-starter</module>
                 <module>examples/storm-loadgen</module>
-                <module>examples/storm-mongodb-examples</module>
                 <module>examples/storm-redis-examples</module>
-                <module>examples/storm-opentsdb-examples</module>
-                <module>examples/storm-solr-examples</module>
                 <module>examples/storm-kafka-client-examples</module>
-                <module>examples/storm-jdbc-examples</module>
                 <module>examples/storm-hdfs-examples</module>
-                <module>examples/storm-hbase-examples</module>
-                <module>examples/storm-hive-examples</module>
                 <module>examples/storm-elasticsearch-examples</module>
-                <module>examples/storm-mqtt-examples</module>
-                <module>examples/storm-pmml-examples</module>
-                <module>examples/storm-jms-examples</module>
-                <module>examples/storm-rocketmq-examples</module>
                 <module>examples/storm-perf</module>
             </modules>
         </profile>
