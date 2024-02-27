@@ -1199,6 +1199,11 @@
                 <artifactId>error_prone_annotations</artifactId>
                 <version>${error_prone_annotations.version}</version>
             </dependency>
+            <dependency>
+                <groupId>com.fasterxml.woodstox</groupId>
+                <artifactId>woodstox-core</artifactId>
+                <version>5.4.0</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
