@@ -3,16 +3,20 @@ export const vendorScripts = [
     "./node_modules/cytoscape/dist/cytoscape.js",
     "./node_modules/cytoscape-dagre/cytoscape-dagre.js",
     "./node_modules/dagre/dist/dagre.js",
-    "./node_modules/datatables.net/js/jquery.dataTables.js",
     "./node_modules/moment/min/moment.min.js",
     "./node_modules/vis/dist/vis.min.js",
     "./node_modules/js-yaml/dist/js-yaml.min.js",
     "./node_modules/js-cookie/src/js.cookie.js",
-    "./src/main/java/org/apache/storm/daemon/ui/WEB-INF/js/vendor/**",
+    "./node_modules/datatables.net/js/jquery.dataTables.js",
+    "./src/main/java/org/apache/storm/daemon/ui/WEB-INF/js/vendor/jquery-**.js",
+    "./src/main/java/org/apache/storm/daemon/ui/WEB-INF/js/vendor/typeahead-**.js",
+    "./src/main/java/org/apache/storm/daemon/ui/WEB-INF/js/vendor/esprima.min.js",
+    "./src/main/java/org/apache/storm/daemon/ui/WEB-INF/js/vendor/jsonFormatter.min.js",
+    "./src/main/java/org/apache/storm/daemon/ui/WEB-INF/js/vendor/url.min.js",
 ];
 
 export const vendorTopScripts = [
-    "./node_modules/jquery/dist/jquery.slim.js"
+    "./node_modules/jquery/dist/jquery.min.js"
 ];
 
 export const scripts = [

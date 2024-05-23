@@ -23,20 +23,20 @@ export const vendorCss = () =>
 
 export const js = () =>
     src(scripts)
-        .pipe(babel())
-        .pipe(uglify())
+      //  .pipe(babel())
+       // .pipe(uglify())
         .pipe(concat("main.js"))
         .pipe(dest("./src/main/java/org/apache/storm/daemon/ui/WEB-INF/public"));
 
 export const vendorJs = () =>
     src(vendorScripts)
-        .pipe(uglify())
+     //   .pipe(uglify())
         .pipe(concat("vendor.js"))
         .pipe(dest("./src/main/java/org/apache/storm/daemon/ui/WEB-INF/public"));
 
 export const vendorTopJs = () =>
     src(vendorTopScripts)
-        .pipe(uglify())
+      //  .pipe(uglify())
         .pipe(concat("vendor-top.js"))
         .pipe(dest("./src/main/java/org/apache/storm/daemon/ui/WEB-INF/public"));
 
