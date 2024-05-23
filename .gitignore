@@ -60,3 +60,8 @@ hs_err_pid*
 # Test jars for zip slip
 !/storm-server/src/test/resources/evil-path-traversal.jar
 !/storm-server/src/test/resources/evil-path-traversal-resources.jar
+
+node
+node_modules
+
+storm-webapp/src/main/java/org/apache/storm/daemon/ui/WEB-INF/public

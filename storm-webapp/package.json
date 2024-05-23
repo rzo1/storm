@@ -1,0 +1,32 @@
+{
+  "name": "storm-webapp",
+  "description": "Apache Storm UI",
+  "version": "2.6.3",
+  "license": "Apache-2.0",
+  "scripts": {
+    "gulp": "gulp bundle"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "del": "^5.1.0",
+    "esm": "^3.2.25",
+    "graceful-fs": "^4.2.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.1",
+    "jquery": "3.5.1",
+    "datatables.net": "1.10.9",
+    "cytoscape": "2.7.14",
+    "cytoscape-dagre": "1.6.0",
+    "dagre": "~0.7.4",
+    "moment": "2.7.0",
+    "vis": "4.16.1",
+    "js-yaml": "3.7.0",
+    "js-cookie": "2.2.0"
+  }
+}
